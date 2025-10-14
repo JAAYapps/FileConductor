@@ -1,0 +1,3 @@
+[submodule "FuseDotNet"]
+	path = FuseDotNet
+	url = https://github.com/LTRData/FuseDotNet.git
