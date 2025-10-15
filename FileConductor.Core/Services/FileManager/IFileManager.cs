@@ -1,6 +1,11 @@
-namespace FileConductor.Services.FileManager;
+using FileConductor.Core.Services.ProjectManager;
+using Zio;
 
-public interface IFileManager
+namespace FileConductor.Core.Services.FileManager;
+
+public interface IFileManager : IFileSystem
 {
-    
+    void Mount(IMountedProject mountedProject);
+    Task<bool> WaitForUnmountAsync();
+    void Unmount();
 }

@@ -1,6 +1,6 @@
 using Zio;
 
-namespace FileConductor.Services.PathProvider;
+namespace FileConductor.Core.Services.PathProvider;
 
 public class MemoryPathProvider : IPathProvider
 {

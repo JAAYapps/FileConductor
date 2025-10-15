@@ -14,15 +14,24 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.1.0"/>
-        <PackageReference Include="Avalonia.Desktop" Version="11.1.0"/>
-        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.1.0"/>
-        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.1.0"/>
+        <PackageReference Include="Avalonia" Version="11.3.7" />
+        <PackageReference Include="Avalonia.Desktop" Version="11.3.7" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.7" />
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.7" />
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-        <PackageReference Include="Avalonia.Diagnostics" Version="11.1.0">
+        <PackageReference Include="Avalonia.Diagnostics" Version="11.3.7">
             <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1"/>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+        <PackageReference Include="DiscUtils" Version="0.16.13" />
+        <PackageReference Include="DokanNet" Version="2.3.0.1" />
+        <PackageReference Include="LTRData.DiscUtils.MountDokan" Version="1.0.66" />
+        <PackageReference Include="LTRData.DiscUtils.MountFuse" Version="1.0.66" />
+        <PackageReference Include="Zio" Version="0.21.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FileConductor.Core\FileConductor.Core.csproj" />
     </ItemGroup>
 </Project>
