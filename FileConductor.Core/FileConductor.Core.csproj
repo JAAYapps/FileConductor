@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DokanNet" Version="2.3.0.1" />
+      <PackageReference Include="LiteDB" Version="6.0.0-prerelease.65" />
+      <PackageReference Include="LTRData.DiscUtils" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Containers" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Core" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Fat" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.FileSystems" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Iso9660" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.MountDokan" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.MountFuse" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Streams" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.Transports" Version="1.0.65" />
+      <PackageReference Include="LTRData.DiscUtils.Vhdx" Version="1.0.66" />
+      <PackageReference Include="LTRData.DiscUtils.VirtualFileSystem" Version="1.0.66" />
+      <PackageReference Include="LTRData.Extensions" Version="1.0.19" />
+      <PackageReference Include="LTRData.Extensions.Native" Version="1.0.19" />
+      <PackageReference Include="LTRData.FuseDotNet" Version="1.0.0.11" />
+      <PackageReference Include="Zio" Version="0.21.2" />
+    </ItemGroup>
+
+</Project>
